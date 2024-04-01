@@ -1,0 +1,25 @@
+{
+  "name": "midudevTutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "os-system": "node src/OSystem/index.js",
+    "file-system": "node src/file-system/index.js",
+    "common-js": "node src/CommonJS/i ndex.js",
+    "module-js": "node src/ModuleJS/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "color": "^4.2.3",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
